@@ -12,8 +12,11 @@ A Python-based brute force detection system designed to monitor and mitigate bru
 
 ## Requirements
 
-- Python 3.x
+Ensure the following are installed:
 - Linux-based system (for /var/log/authlog)
+- Python 3.x
+- Bash (for the scripts)
+- iptables (for blocking IPs)
 
 ## Installation
 
