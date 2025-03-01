@@ -18,7 +18,7 @@ Ensure the following are installed:
 - Bash (for the scripts)
 - iptables (for blocking IPs)
 
-## Executable Permissions**
+## Executable Permissions
 Make sure the scripts (`block_ip.sh`, `unblock_ip.sh`) are executable:
 ```bash
 chmod +x scripts/block_ip.sh
