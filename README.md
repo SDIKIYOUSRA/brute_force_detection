@@ -18,15 +18,16 @@ Ensure the following are installed:
 - Bash (for the scripts)
 - iptables (for blocking IPs)
 
-## Executable Permissions
-Make sure the scripts (`block_ip.sh`, `unblock_ip.sh`) are executable:
-```bash
-chmod +x scripts/block_ip.sh
-chmod +x scripts/unblock_ip.sh
-
 ## Installation
 
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/SDIKIYOUSRA/brute_force_detection.git
    cd brute_force_detection
+
+## Executable Permissions
+Make sure the scripts (`block_ip.sh`, `unblock_ip.sh`) are executable:
+```bash
+chmod +x scripts/block_ip.sh
+chmod +x scripts/unblock_ip.sh
+
